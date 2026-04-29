@@ -1,0 +1,15 @@
+{
+  "repos": [
+    {
+      "owner": "fosrl",
+      "name": "pangolin",
+      "discordIssuesForumId": "CHANNEL_ID_FORUM_ISSUES",
+      "discordPrsForumId": "CHANNEL_ID_FORUM_PRS",
+      "discordDiscussionsForumId": null,
+      "trackIssues": true,
+      "trackPulls": true,
+      "trackDiscussions": false,
+      "pullsState": "open"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+services:
+  discord-github-bot:
+    build: .
+    user: "${HOST_UID:-1005}:${HOST_GID:-1005}"
+    volumes:
+      - ./data:/app/data
+      - ./config:/app/config:ro
+    restart: unless-stopped
